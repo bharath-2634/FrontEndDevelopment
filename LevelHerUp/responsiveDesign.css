@@ -1,0 +1,840 @@
+@media (max-width:1240px) {
+    .header {
+        height: 120vh;
+    }
+
+    .heading-primary {
+        font-size: 1.5rem;
+        margin-top: 3rem;
+    }   
+
+    .btn {
+        padding: 10px 10px;
+        /* width: 10%; */
+        font-size: .6rem;
+    }
+}
+
+@media (max-width:1035px) {
+    
+    .header {
+        height: 120vh;
+    }
+}
+
+@media (max-width:1000px) {
+    body {
+        min-width: 0px;
+        /* width: 120%; */
+    }
+}
+
+/* .btn--text {
+    @media (max-width:800px) {
+       right: 550px;
+       top: 37rem;
+    }
+} */
+
+@media (max-width:750px) {
+    .nav__list {
+        display: none;
+    }
+    .toggle-btn {
+        display: block;
+    }
+    .dropDownMenu {
+        display: block;
+        z-index: 10;
+        background-color: #9EC4C5;
+    }
+}
+
+
+@media (max-width:1140px) {
+
+    /* Review Cards */
+    .reviewCard {
+        width: 18rem;
+        height: 22rem;
+    }
+
+    .reviewCard img {
+        width: 18rem;
+        height: 10rem;
+    }
+
+    .reviewCard p {
+        font-size: 1.2rem;
+        padding: .5rem;
+    }
+
+    .clients {
+        font-size: 2.5rem;
+    }
+
+    /* News Letters */
+    .newsCard {
+        width: 18rem;
+        height: 23rem;
+    }
+
+    .newsLink img {
+        width: 18rem;
+        height: 10rem;
+        background-position: top;
+        background-size: cover;
+    }
+
+    .newsLetter {
+        text-align: center;
+        font-size: 2.7rem;
+    }
+
+    /* Tech Cards */
+    .tech {
+        font-size: 2.7rem;
+    }
+
+    .techs__card {
+        height: 30rem;
+        width: 22rem;
+
+    }
+
+    .techs__img {
+        width: 13rem;
+        height: 16rem;
+    }
+
+    .techs__heading-primary {
+        font-size: 1.2rem;
+    }
+
+    .techs__heading-secondary {
+        font-size: 1rem ;
+    }
+    .popUpImg {
+        margin-left: 7rem;
+    }
+
+    .modal{
+        top: 14rem;
+        width: 30rem;
+        height: 20rem;
+    }
+
+    .modal h1 {
+        /* margin-top: 6rem; */
+        font-size: 1.5rem;
+    }
+
+    .modal p {
+        font-size: 1rem;
+        padding: 0rem;
+    }
+}
+
+@media (max-width:1000px) {
+
+    .popUpImg {
+        margin-left: 6rem;
+    }
+
+    .popUpHeading {
+        font-size: 1.2rem;
+    }
+
+    .popUp button {
+        margin-left: 4.5rem;
+    }
+
+    /* Review Card */
+    .reviewCard {
+        width: 15rem;
+        height: 18rem;
+    }
+
+    .reviewCard img {
+        width: 15rem;
+        height: 10rem;
+    }
+
+    .reviewCard p {
+        font-size: 1rem;
+        padding: .5rem;
+        /* margin-top: -8rem; */
+    }
+    .clients {
+        font-size: 2rem;
+    }
+
+    /* News Cards */
+    .newsCard {
+        width: 14rem;
+        height: 19rem;
+    }
+
+    .newsLink img {
+        width: 14rem;
+        height: 8rem;
+        background-position: top;
+        background-size: cover;
+    }
+
+    .newsLink a {
+        font-size: 1rem;
+    }
+
+    .newsDescription {
+        font-size: .9rem;
+        padding: .5rem;
+    }
+
+    .newsLetter {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    /* Techs Card */
+    .tech {
+        font-size: 2.2rem;
+    }
+
+    .techs__card {
+        height: 27rem;
+        width: 22rem;
+    }
+
+    .techs__img {
+        width: 10rem;
+        height: 14rem;
+    }
+
+    .techs__heading-primary {
+        font-size: 1.2rem;
+    }
+
+    .techs__heading-secondary {
+        font-size: 1rem ;
+    }
+    
+    .btn-book {
+        margin-top: 1rem;
+    }
+
+    .techs__img--0 {
+        width: 9rem;
+        height: 11rem;
+    }
+
+    .techs__heading--2 {
+        font-size: 1rem;
+    }
+
+    /* Help Cards */
+
+    
+    .HelpNote__heading {
+        flex-direction: row;
+    }
+
+    .HelpNote__heading .text{
+        font-size: .8rem;
+    }
+
+    .HelpNote__content {
+        font-size: .8rem;
+    }
+
+    .help {
+        font-size: 2.5rem;
+    }
+
+    /* About Us */
+
+    .AboutUs__btn {
+        margin-top: 0rem;
+    }
+
+    .section__Approach {
+        padding-left: 7rem;
+        padding-right: 7rem;
+    }
+
+    /* FAQ */
+    .Faq {
+        font-size: 2rem;
+    }
+
+    .question__text {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .section__FAQ {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .answer__text {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:900px) {
+    .popUpImg {
+        margin-left: 4.5rem;
+    }
+
+    .popUpHeading {
+        font-size: 1.2rem;
+    }
+
+    .popUp button {
+        margin-left: 4.5rem;
+    }
+}
+
+@media (max-width:800px) {
+
+    .popUpImg {
+        margin-left: 3.5rem;
+    }
+
+    .popUpHeading {
+        font-size: 1rem;
+    }
+
+    .popUp button {
+        margin-left: 4rem;
+    }
+
+    .popUpText {
+        font-size: .6rem;
+    }
+
+    /* Review Cards */
+    .reviewCard {
+        width: 12rem;
+        height: 15rem;
+    }
+
+    .reviewCard img {
+        width: 12rem;
+        height: 10rem;
+    }
+
+    .reviewCard p {
+        font-size: .8rem;
+        padding: .5rem;
+        /* margin-top: -8rem; */
+    }
+    .clients {
+        font-size: 2rem;
+    }
+
+    /* News Cards */
+    .newsCard {
+        width: 12rem;
+        height: 20rem;
+        overflow-y: hidden;
+    }
+
+    .newsLink img {
+        width: 12rem;
+        height: 8rem;
+        background-position: top;
+        background-size: cover;
+    }
+
+    .newsLink a {
+        font-size: .9rem;
+        text-align: center;
+        padding: .3rem;
+    }
+
+    .newsDescription {
+        font-size: .9rem;
+        padding: .2rem;
+        margin-top: -.7rem;
+    }
+
+    .newsLetter {
+        /* display: block; */
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    /* Techs Card */
+
+    .techs {
+        flex-direction: column;
+    }
+
+    .tech {
+        font-size: 1.9rem;
+    }
+
+    .techs__card {
+        margin-top: 1.5rem;
+        margin-left: 2rem;
+        width: 20rem;
+    }
+
+    .techs__heading-primary {
+        margin-top: 1.5rem;
+        font-size: 1.3rem;
+    }
+
+    .techs__heading-secondary {
+        font-size: 1rem ;
+    }
+    
+    .techs__img--0 {
+        width: 9rem;
+        height: 11rem;
+    }
+
+    .techs__heading--2 {
+        font-size: 1.5rem;
+    }
+
+    /* Help Notes */
+
+    .HelpNote__heading {
+        flex-direction: column;
+    }
+
+    .HelpNote__heading--3 .text{
+        font-size: 1rem;
+    }
+
+    .HelpNote__content {
+        font-size: .6rem;
+    }
+
+    .help {
+        font-size: 1.7rem;
+    }
+
+    /* about Us */
+    .AboutUs__heading--sec {
+        font-size: 1rem;
+    }
+
+    .AboutUs__imgBox img {
+        width: 16rem;
+        height: 20rem;
+        margin-top: -1.5rem;
+    }
+
+    /* approach */
+    .Approach {
+        font-size: 1.7rem;
+    }
+
+    .approach .text {
+        font-size: 1rem;
+    }
+
+    .approach img {
+        width: 5rem;
+        height: 5rem;
+        margin-bottom: 2rem;
+    }
+
+    /* FAq */
+    .Faq {
+        font-size: 1.7rem;
+    }
+
+    /* .question__text {
+        font-size: .9rem;
+        text-align: center;
+    }
+
+    .answer__text {
+        font-size: 1rem;
+    } */
+
+    .section__FAQ {
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    .btn--text {
+        left: 3rem;
+        margin-top: -1rem;
+    }
+
+    .copy__text {
+        font-size: .8rem;
+    }
+
+    .footer__text {
+        font-size: .8rem;
+    }
+}
+
+@media (max-width:700px) {
+
+    .popUp {
+        width: 40%;
+    }
+
+    .popUpImg {
+        margin-left: 3.3rem;
+        
+    }
+
+    .popUpHeading {
+        font-size: .8rem;
+    }
+
+    .popUp button {
+        margin-left: 4rem;
+        width: 6rem;
+        height: 2.5rem;
+        font-size: .8rem;
+    }
+
+    .popUpText {
+        font-size: .6rem;
+    }
+
+    /* Review Card */
+    .reviews {
+        flex-direction: column;
+    }
+    .reviewCard {
+        width: 20rem;
+        height: 22rem;
+    }
+
+    .reviewCard img {
+        width: 20rem;
+        height: 14rem;
+    }
+
+    .reviewCard p {
+        font-size: 1rem;
+        padding: .5rem;
+        /* margin-top: -8rem; */
+    }
+    .clients {
+        font-size: 2rem;
+    }
+
+    /* News Letters */
+
+    .newsLetters {
+        flex-direction: column;
+    }
+
+    .newsCard {
+        width: 20rem;
+        height: 25rem;
+        margin-top: 1.5rem;
+    }
+
+    .newsLink img {
+        width: 20rem;
+        height: 15rem;
+        background-position: top;
+        background-size: cover;
+    }
+
+    .newsLink a {
+        font-size: 1.2rem;
+        text-align: center;
+        padding: .3rem;
+    }
+
+    .newsDescription {
+        font-size: 1rem;
+        padding: .2rem;
+        margin-top: -.7rem;
+        margin: .2rem;
+    }
+
+    .newsLetter {
+        /* display: block; */
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    /* Help Notes */
+
+    .HelpNotes {
+        flex-direction: column;
+    }
+
+    .HelpNote:not(:first-child) {
+        margin-top: 1.2rem;
+    }
+
+    .HelpNote {
+        width: 70%;
+        padding-bottom: 1rem;
+        text-align: center;
+    }
+
+    .HelpNote:not(:last-child) {
+        border-bottom: 1px solid #000;
+        border-right: none;
+        
+    }
+
+    .help {
+        font-size: 1.2rem;
+    }
+
+    .footer {
+        flex-direction: row;
+    }
+
+    .copy__text {
+        font-size: .8rem;
+    }
+
+    .footer__text {
+        font-size: .8rem;
+    }
+
+    .AboutUs {
+        flex-direction: column;
+    }
+
+    .AboutUs__imgBox img {
+        width: 13rem;
+        height: 16rem;
+        margin-right: 3rem;
+    }
+    .professionalLink__text {
+        font-size: 1rem;
+    }
+
+    /* Approach */
+
+    .Approach {
+        font-size: 1.5rem;
+    }
+    .approach {
+        flex-direction: column;
+    }
+
+    .approach--1 {
+        flex-direction: column-reverse;
+    }
+
+    .section__Approach {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .tech {
+        font-size: 1.5rem;
+    }
+
+    /*  */
+    .Faq {
+        font-size: 1.7rem;
+    }
+
+    .question {
+        flex-direction: column;
+    }
+    .question__text {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .answer__text {
+        font-size: .8rem;
+    }
+
+    .header {
+        height: 95vh;
+    }
+
+    /* .section__home {
+        height: 40vh;
+    } */
+
+    .heading-primary {
+        font-size: 1.2rem;
+    }
+
+    .dropDownMenu {
+        top: 5rem;
+        right: 2rem;
+    }
+
+    .AboutUs__heading--pre {
+        font-size: 1.2rem;
+    }
+
+    .book .text{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:600px) {
+
+    .popUp {
+        width: 40%;
+    }
+
+    .popUpImg {
+        margin-left: 4rem;
+        width: 5rem;
+        height: 7rem;   
+        margin-top: -4rem;
+    }
+
+    .popUpHeading {
+        font-size: .7rem;
+    }
+
+    .popUp button {
+        margin-left: 4rem;
+        width: 6rem;
+        height: 2.5rem;
+        font-size: .8rem;
+    }
+
+    .popUpText {
+        font-size: .6rem;
+    }
+
+    .modal{
+        top: 14rem;
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .modal h1 {
+        /* margin-top: 6rem; */
+        font-size: 1rem;
+    }
+
+    .close-modal {
+        margin-top: -1.2rem;
+    }
+
+    .modal p {
+        font-size: .8rem;
+        padding: 0rem;
+    }
+
+}
+
+@media (max-width:400px) {
+    .header {
+        height: 60vh;
+    }
+    .section__home {
+        height: 40vh;
+    }
+
+    .question__text {
+        font-size: .8rem;
+        text-align: center;
+    }
+    
+    .copy__text {
+        font-size: .8rem;
+    }
+
+    .footer__text {
+        font-size: .6rem;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .popUp button {
+        margin-left:1rem;
+        width: 6rem;
+        height: 2.5rem;
+        font-size: .8rem;
+    }
+ 
+}
+
+@media (max-width:500px) {
+    .header {
+        height: 60vh;
+    }
+    .section__home {
+        height: 40vh;
+    }
+    .question__text {
+        font-size: .8rem;
+        text-align: center;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .copy__text {
+        font-size: .6rem;
+        text-align: center;
+    }
+
+    .footer__layer-2 {
+        width: 100%;
+    }
+    .footer__text {
+        padding: 0rem;
+        font-size: .6rem;
+        /* text-align: center; */
+    }
+
+    .popUp {
+        width: 40%;
+    }
+
+    .popUpImg {
+        margin-left: 2rem;
+        width: 5rem;
+        height: 7rem;   
+        margin-top: -4rem;
+        display: none;
+    }
+
+    .popUpHeading {
+        margin-top: 1rem;
+        font-size: .5rem;
+    }
+
+    .popUp button {
+        margin-left: 2rem;
+        width: 6rem;
+        height: 2.5rem;
+        font-size: .8rem;
+    }
+
+    .popUpText {
+        font-size: .6rem;
+    }
+
+}
+
+@media (max-width:400px) {
+    .reviewCard {
+        width: 18rem;
+        height: 20rem;
+    }
+
+    .reviewCard img {
+        width: 18rem;
+    }
+
+    .reviewCard p{
+        font-size: .8rem;
+    }
+}

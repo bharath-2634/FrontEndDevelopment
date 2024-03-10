@@ -1,0 +1,55 @@
+.compo {
+    position: relative;
+  }
+  .compo__photo {
+    position: absolute;
+    outline-offset: 1.5rem;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    transition: all .2s;
+
+    @media (max-width:900px) {
+       float: left;
+       position: relative;
+       width: 33%;
+       box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+
+    }
+  }
+  .compo__photo--p1 {
+    top: -1rem;
+    left: 0;
+    @media (max-width:900px) {
+      top: -1;
+      left: 0;
+      transform: scale(1.3);
+    }
+
+  }
+  .compo__photo--p2 {
+    top: 4rem;
+    right: 1rem;
+    @media (max-width:900px) {
+     top: 0;
+     right: 1rem;
+     left: 5;
+     z-index: 100;
+     transform: scale(1.3);
+    }
+  }
+  .compo__photo--p3 {
+    top: 10rem;
+    right: 9rem;
+    @media (max-width:900px) {
+      top: -1rem;
+      left: 0;
+      
+      transform: scale(1.3);
+    }
+  }
+  .compo__photo:hover {
+    z-index: 20;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .4);
+    outline: 1.5rem solid #28b485;
+    transform: scale(1.05);
+  }

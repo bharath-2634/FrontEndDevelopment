@@ -1,0 +1,51 @@
+.naviation_bar {
+    background-color: black;
+    padding: .5rem;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.header {
+    min-height: 96vh;
+    background-color: black;
+}
+
+.main-block {
+    display: flex;
+    height: 25.5rem;
+}
+
+main {
+    padding: 3rem;
+}
+
+.section__about-me {
+    min-height: 37rem;
+    max-width: 100%;
+    background-color: black;
+    box-shadow: 0 4rem 6rem rgba($color: #1C1B1A, $alpha: .5);
+    border-radius: 2rem;
+}
+
+.section__projectBook {
+    min-height: 35rem;
+    max-width: 100%;
+    box-shadow: 0 0rem 2rem rgba($color: #000000, $alpha: .4);
+    border-radius: 1rem;
+}
+
+.section__skills {
+    min-height: 35rem;
+    max-width: 100%;
+    // box-shadow: 0 2rem 4rem rgba($color: #000000, $alpha: .4);
+    border-radius: 1rem;
+}
+
+.footer {
+    background-color: black;
+    height: 40rem;
+    width: 100%;
+    padding: 1rem;
+}

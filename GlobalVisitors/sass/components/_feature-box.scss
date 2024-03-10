@@ -1,0 +1,30 @@
+.feature-box {
+    background-color: #fff;
+    padding: 3px;
+    text-align: center;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, .15);
+    font-size: 1rem;
+    border-radius: 3px;
+    transition: all .2s;
+    
+
+    &__icon {
+        font-size: 4rem;
+        margin-bottom: .5rem;
+        clear: both;
+        display: inline-block;
+        background-clip: text;
+        -webkit-background-clip: text;
+        background-image: linear-gradient(to right, 
+        $color-primary-light,$color-primary-dark);
+        color: transparent;
+    }
+    &:hover {
+        transform: translateY(-1.5rem) scale(1.03);
+        box-shadow: 0 1.5rem 4rem rgba($color: #000000, $alpha: .6);
+    }
+
+    @media (max-width:900px) {
+        padding:3rem;
+    }
+}

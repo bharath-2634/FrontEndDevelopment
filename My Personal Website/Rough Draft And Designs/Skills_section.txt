@@ -1,0 +1,90 @@
+<section class="section__skills" id="section__skills">
+            <div class="heading u-margin-top">
+                <div class="heading-primary">
+                    My Skills
+                </div>
+            </div>
+            <div class="skills u-margin-top">
+                <div class="skills__topics">
+
+                    <div class="skills__topic ">
+                        <div class="skills__topic-img">
+                            <i class="fa-solid fa-circle-check"></i>
+                        </div>
+                        <p class="skills__topic-text">Computer Networking</p>
+                    </div>
+
+                    <div class="skills__topic u-margin-top">
+                        <div class="skills__topic-img">
+                            <i class="fa-solid fa-circle-check"></i>
+                        </div>
+                        <p class="skills__topic-text">Data Structures And Algorithms</p>
+                    </div>
+
+                    <div class="skills__topic u-margin-top">
+                        <div class="skills__topic-img">
+                            <i class="fa-solid fa-circle-check"></i>
+                        </div>
+                        <p class="skills__topic-text">Python, Java , C And C++</p>
+                    </div>
+
+                    <div class="skills__topic u-margin-top">
+                        <div class="skills__topic-img">
+                            <i class="fa-solid fa-circle-check"></i>
+                        </div>
+                        <p class="skills__topic-text">HTML 5 ,CSS 3 And JavaScript</p>
+                    </div>
+
+                    <div class="skills__topic u-margin-top">
+                        <div class="skills__topic-img">
+                            <i class="fa-solid fa-circle-check"></i>
+                        </div>
+                        <p class="skills__topic-text">MySql And MongoDB</p>
+                    </div>
+                    
+                    <div class="skills__topic u-margin-top">
+                        <div class="skills__topic-img">
+                            <i class="fa-solid fa-circle-check"></i>
+                        </div>
+                        <p class="skills__topic-text">Node Js And Php</p>
+                    </div>
+
+                    <div class="skills__topic u-margin-top">
+                        <div class="skills__topic-img">
+                            <i class="fa-solid fa-circle-check"></i>
+                        </div>
+                        <p class="skills__topic-text"><span class="blue-txt">And Many More....</span></p>
+                    </div>
+                </div>
+                <div class="skills__levels">
+                    <div class="skills__levels-seek">
+
+                        <h3 class="heading-secondary">Web Development (HTML 5, CSS 3 and JavaScript)</h3>
+                        <div class="progress-bar" >
+                            <div class="web-development" data-aos="slide-right"><span>75%</span></div>
+                        </div>
+
+                        <h3 class="heading-secondary">Android Development</h3>
+                        <div class="progress-bar">
+                            <div class="android-development" data-aos="slide-right"><span>85%</span></div>
+                        </div>
+
+                        <h3 class="heading-secondary">Flutter Development</h3>
+                        <div class="progress-bar">
+                            <div class="flutter-development" data-aos="slide-right"><span>70%</span></div>
+                        </div>
+
+                        <h3 class="heading-secondary">OS,Computer Networking and Linux</h3>
+                        <div class="progress-bar">
+                            <div class="computer" data-aos="slide-right"><span>80%</span></div>
+                        </div>
+
+                        <h3 class="heading-secondary">Back-end development (python , Java , C And C++)</h3>
+                        <div class="progress-bar">
+                            <div class="backend" data-aos="slide-right"><span>90%</span></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>

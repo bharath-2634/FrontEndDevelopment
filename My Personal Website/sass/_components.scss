@@ -1,0 +1,632 @@
+.logo-box {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 2rem;
+}
+
+.logo {
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1rem;
+    display: inline-block;
+}
+
+.heading-logo {
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.nav {
+
+    display: flex;
+
+    &__list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__item {
+        list-style: none;
+        &:not(:last-child) {
+            margin-right: 2rem;
+        }
+    }
+
+    &__link {
+        text-decoration: none;
+        color: #1260cc;
+        font-family: "Jost";
+        font-size: 1.1rem;
+        font-weight: 600;
+        letter-spacing: .1rem;
+        transition:all .2s;
+        position: relative;
+        display: inline-block;
+
+        &::after {
+            content: "";
+            position: absolute;
+            height: 3px;
+            width: 0%;
+            background-color: white;
+            bottom: -5px;
+            left: 0;
+            transition: all .2s ease-out;
+
+        }
+
+        &:hover::after {
+            width: 100%;
+        }
+    }
+
+}
+
+/////////// My Social Media Links ///////////////
+
+.wrapper {
+    display: flex;
+   align-self: center;
+    // background-color: white;
+}
+
+.wrapper .icon {
+    margin:  -.4rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+}
+
+.wrapper .icon span {
+    position: relative;
+    z-index: 2;
+    height: 2rem;
+    width: 2rem;
+    display: block;
+    border-radius: 50%;
+    box-shadow: 0 2rem 4rem rgba($color: #000000, $alpha: .2);
+    text-align: center;
+    background-color: #000;
+    margin-bottom: 6px;
+}
+
+.wrapper .icon span i{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #1260cc;
+}
+
+.wrapper .icon .tooltip {
+    // position: absolute;
+    bottom: -4rem;
+    display: block;
+    border-radius: 10px;
+    padding: .5rem;
+    margin: 5px;
+    text-align: center;
+    color: white;
+    background-color: #1C1B1A;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .2s cubic-bezier(0.68,-0.55,0.265,1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+
+.wrapper .icon .tooltip::before {
+    content: "";
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    background-color: #1C1B1A;
+    top: 2.5rem;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+}
+
+
+/////////// Main Block of Heading Styling ////////////////////
+
+
+.intro-block {
+    flex: 0 0 55%;
+    background-color: black;
+    justify-content: center;
+    align-self: center;
+    color: white;
+    font-family: "Jost";
+    font-weight: 900;
+    font-size: 1.7rem;
+    letter-spacing: .1rem;
+    line-height: 1.6;
+    text-align: center;
+    
+}
+
+.u-text-center {
+    text-align: center;
+}
+
+.wrapper {
+    overflow: hidden;
+    text-align: center;
+    margin-left: 140px;
+}
+
+.wrapper .text {
+    position: relative;
+}
+
+.wrapper .sec-txt {
+    margin-left: 1rem;
+    color: #1260cc;
+}
+
+.wrapper .sec-txt::before {
+    content: "";
+    position: absolute;
+    background-color: black;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    border-left: 2px solid white;
+    animation: typing 4s steps(12) infinite;
+}
+
+
+@keyframes typing {
+    40%,60%{
+        left: calc(100% + 4px);
+    }
+
+    100%{
+        left: 0;
+    }
+}
+
+///////////Header Image Styling///////
+
+.intro-img {
+    flex: 1;
+    overflow: hidden;
+}
+
+.personal-img {
+    height: 25rem;
+}
+
+//// Header Button Styling /////
+
+.btn {
+
+    &:link,
+    &:visited {
+        position: relative;
+        display: inline-block;
+        background-color: #1260cc;
+        padding: 15px 60px;
+        border-radius: 12px;
+        text-decoration: none;
+        color: white;
+        font-family: "Jost";
+    }
+    &:hover {
+        transform: translateY(-3px);
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
+    }
+    &:active {
+        transform: translateY(-1px);
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.8);
+    }
+    &::after {
+        content: "";
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transition: all .4s;
+    }
+    
+    &-white {
+        color:white;
+        text-decoration: none;
+        font-size: 1rem;
+        &::after {
+            background-color: #1260cc;
+            border-radius: 10px;
+        }
+    }
+    &:hover::after {
+        transform: scaleX(1.4) scaleY(1.6);
+        opacity: 0;
+    }
+    &-animated {
+        animation: moveInBottom 3s ease-out;
+    }
+}
+
+//////// Styling about Me Section ////////
+
+.heading {
+    text-align: center;
+    display: block;
+}
+
+.heading-primary {
+    display: inline-block;
+    color: white;
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: center;
+    font-weight: 900;
+    margin-top: 5px;
+    position: relative;
+   
+    &:hover {
+        color: #1260cc;
+    }
+    &::after {
+        content: "";
+        position: absolute;
+        height: 2px;
+        width: 0%;
+        background-color: white;
+        bottom: -5px;
+        left: 0;
+        
+        transition: all .2s ease-out;
+    }
+
+    &:hover::after {
+        width: 100%;
+        
+    }
+}
+
+.aboutMe-text {
+    padding: 2rem;
+}
+
+.aboutMe-img {
+    float: left;
+    height: 16rem;
+    width: 20rem;
+    padding:  0 1.5rem;
+}
+
+.text {
+
+    &-heading {
+        font-size: 1.5rem;
+        font-family: "Jost";
+        font-weight: 600;
+        
+    }
+    
+    &-para {
+        margin-top: 1.5rem;
+        font-size: 1.2rem; 
+        font-family: "Josefin Sans";
+        font-weight: 500;
+        line-height: 2;
+        
+    }
+}
+
+.blue-txt {
+    color: #1260cc;
+}
+
+.border-txt {
+    border-bottom: 1px solid #1260cc;
+    cursor: pointer;
+}
+
+.u-margin-top {
+    margin-top: 3rem;
+}
+
+/////////Styling Project Booking Section ///////////
+
+.projectBox { 
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+
+}
+
+.project {
+    box-shadow: 0px 2rem 4rem rgba($color: #1C1B1A, $alpha: .4);
+    padding: 2rem;
+    transition: all .2s ease-out;
+
+    &:hover {
+        box-shadow: 0px 2rem 4rem rgba($color: #000, $alpha: .4);
+        
+    }
+
+    &-logo {
+        display: block;
+        width: 5rem;
+        height: 2rem;
+        font-size: 2rem;
+    }
+
+    &-heading {
+        margin-top: 2rem;
+        display: block;
+        position: relative;
+        color: #1260cc;
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-bottom: 2rem;
+
+        &::after {
+            content: "";
+            position: absolute;
+            height: 2px;
+            width: 0%;
+            background-color: white;
+            bottom: -5px;
+            left: 0;
+            transition: all .2s ease-out;
+        }
+    
+        &:hover::after {
+            width: 70%;
+        }
+    }
+
+    &-description {
+        font-size: 1rem;
+    }
+
+    &-btn {
+        margin-top: 2rem;
+    }
+}
+
+///////Styling Skiils Section /////////
+
+.skills {
+
+    display: flex;
+    
+    &__topics {
+
+        flex: 0 0 50%;
+        padding: 1.5rem;
+        text-align: center;
+        margin: 0 1rem;
+        
+        
+        // &:hover {
+        //     border-radius: 3px;
+        //     box-shadow: 0 2rem 4rem rgba($color: #000000, $alpha: .4);
+        // }
+    }
+
+    &__topic {
+        display: flex;
+        
+
+        &-img {
+            font-size: 1.5rem;
+            margin-right: 1rem;
+            color: #1260cc;
+        }
+
+        &-text {
+            align-self: center;
+            font-size: 1.2rem;
+            font-weight: 700;
+            font-family: "Josefin Sans";
+            position: relative;
+
+            &::after {
+                content: "";
+                position: absolute;
+                height: 3px;
+                width: 0%;
+                background-color: #1260cc;
+                bottom: -7px;
+                left: 0;
+                transition: all .2s ease-out;
+            }
+        
+            &:hover::after {
+                width: 100%;
+            }
+        }
+    }
+
+
+    &__levels {
+        flex: 1;
+        padding: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        // &:hover {
+        //     border-radius: 3px;
+        //     box-shadow: 0 2rem 4rem rgba($color: #000000, $alpha: .4);
+        // }
+    }
+}
+
+//////// Skills Progress Bar Design /////////
+
+.heading-secondary {
+    color: #1260cc;
+    font-size: 1.2rem;
+    font-family: "Josefin Sans";
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.progress-bar {
+
+    width: 30rem;
+    height: .8rem;
+    background-color: black;
+    border-radius: 7px;
+}
+
+.progress-bar div {
+    height: .8rem;
+    width: 0%;
+    background-color: #1260cc;
+    border-radius: 7px;
+}
+
+.progress-bar div span {
+    height: 1.7rem;
+    width: 1.7rem;
+    border-radius: 50%;
+    background-color: white;
+    float: right;
+    color: black;
+    font-weight: 500;
+    font-size: .8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -5px;
+    margin-right: -2px;
+}
+
+.web-development {
+    animation: web 1s linear forwards;
+}
+
+.android-development {
+    animation: android 1s linear forwards;
+}
+
+.flutter-development {
+    animation: flutter 1s linear forwards;
+}
+
+.computer {
+    animation: computer 1s linear forwards;
+}
+
+.backend {
+    animation: back 1s linear forwards;
+}
+
+@keyframes web {
+    100% {
+        width: 75%;
+    }
+}
+
+@keyframes android {
+    100% {
+        width: 85%;
+    }
+}
+
+@keyframes flutter {
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes computer {
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes back {
+    100% {
+        width: 90%;
+    }
+}
+
+
+//////// Styling Footer //////
+
+.footer {
+
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__logoBox {
+        text-align: center;
+    }
+
+    &__textBox {
+        
+
+        display: flex;
+        padding: 2rem;
+
+        &-contactDetails {
+            border-right:2px solid white;
+            flex: 0 0 50%;
+            text-align: center;
+        }
+
+        &-copyRight {
+            flex: 1 ;
+            text-align: center;
+            align-self: center;
+            padding: 2rem;
+            font-size: 1.5rem;
+            font-weight: 500;
+            font-family: "Jost";
+        }
+    }
+}
+
+.contact-detail {
+    font-size: 1.3rem;
+    cursor: pointer;
+    display: block;
+    transition: all .2s ease-out;
+
+    &:hover {
+        transform: scale(1.2);
+    }
+}
+
+.contact-heading {
+    position: relative;
+    display: inline-block;
+    &::after {
+        content: "";
+        position: absolute;
+        height: 3px;
+        width: 0%;
+        background-color: #1260cc;
+        bottom: -7px;
+        left: 0;
+        transition: all .2s ease-out;
+    }
+
+    &:hover::after {
+        width: 100%;
+    }
+}
